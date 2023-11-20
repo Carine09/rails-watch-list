@@ -7,3 +7,10 @@
 <div>
 <%= link_to "create a new list", new_list_path(@list) %>
 </div>
+
+<%= cl_image_tag("ptlj6bjfvah2hjghdnby",
+      width: 150, height: 150, crop: :scale) %>
+
+<!-- for face detection -->
+<%= cl_image_tag("IMAGE_WITH_FACE_ID",
+      width: 150, height: 150, crop: :scale, gravity: :face) %>
